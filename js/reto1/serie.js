@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Serie {
     constructor(titulo, creador) {
         this.titulo = titulo;
@@ -69,4 +68,3 @@ class Serie {
     Creador: ${this.creador}`;
     }
 }
-exports.default = Serie;

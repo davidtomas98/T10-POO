@@ -1,7 +1,7 @@
 "use strict";
 class Libro {
     constructor(isbn, titulo, autor, numeroPaginas) {
-        // Inicialización de las propiedades del libro
+        // Inicialización de los atributos del libro
         this._isbn = isbn;
         this._titulo = titulo;
         this._autor = autor;

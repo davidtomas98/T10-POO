@@ -1,13 +1,10 @@
-import Serie from "./serie";
-import Videojuego from "./Videojuego";
-
 // Crear arrays de Series y Videojuegos
-const series: Serie[] = [
-    new Serie("Serie 1", "Creador 1"),
-    new Serie("Serie 2", "Creador 2"),
-    new Serie("Serie 3", "Creador 3"),
-    new Serie("Serie 4", "Creador 4"),
-    new Serie("Serie 5", "Creador 5")
+const series: Serie [] = [
+    new Serie ("Serie 1", "Creador 1"),
+    new Serie ("Serie 2", "Creador 2"),
+    new Serie ("Serie 3", "Creador 3"),
+    new Serie ("Serie 4", "Creador 4"),
+    new Serie ("Serie 5", "Creador 5")
     ];
 
 const videojuegos: Videojuego[] = [

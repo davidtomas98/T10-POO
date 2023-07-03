@@ -1,12 +1,12 @@
 class Libro {
-  // Propiedades privadas del libro
+  // Atributos privados del libro
   private _isbn: string;
   private _titulo: string;
   private _autor: string;
   private _numeroPaginas: number;
   
   constructor(isbn: string, titulo: string, autor: string, numeroPaginas: number) {
-    // Inicialización de las propiedades del libro
+    // Inicialización de los atributos del libro
     this._isbn = isbn;
     this._titulo = titulo;
     this._autor = autor;
@@ -54,5 +54,5 @@ class Libro {
   // Método toStringTitulo() para obtener solo el título del libro
   toStringTitulo(): string {
     return this._titulo;
-  }  
+  }
 }

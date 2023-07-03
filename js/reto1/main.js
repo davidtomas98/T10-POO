@@ -1,24 +1,18 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const serie_1 = __importDefault(require("./serie"));
-const Videojuego_1 = __importDefault(require("./Videojuego"));
 // Crear arrays de Series y Videojuegos
 const series = [
-    new serie_1.default("Serie 1", "Creador 1"),
-    new serie_1.default("Serie 2", "Creador 2"),
-    new serie_1.default("Serie 3", "Creador 3"),
-    new serie_1.default("Serie 4", "Creador 4"),
-    new serie_1.default("Serie 5", "Creador 5")
+    new Serie("Serie 1", "Creador 1"),
+    new Serie("Serie 2", "Creador 2"),
+    new Serie("Serie 3", "Creador 3"),
+    new Serie("Serie 4", "Creador 4"),
+    new Serie("Serie 5", "Creador 5")
 ];
 const videojuegos = [
-    new Videojuego_1.default("Videojuego 1", 15, "Compañía 1"),
-    new Videojuego_1.default("Videojuego 2", 20, "Compañía 2"),
-    new Videojuego_1.default("Videojuego 3", 10, "Compañía 3"),
-    new Videojuego_1.default("Videojuego 4", 12, "Compañía 4"),
-    new Videojuego_1.default("Videojuego 5", 8, "Compañía 5")
+    new Videojuego("Videojuego 1", 15, "Compañía 1"),
+    new Videojuego("Videojuego 2", 20, "Compañía 2"),
+    new Videojuego("Videojuego 3", 10, "Compañía 3"),
+    new Videojuego("Videojuego 4", 12, "Compañía 4"),
+    new Videojuego("Videojuego 5", 8, "Compañía 5")
 ];
 // Resto del código principal
 // Entregar algunos Videojuegos y Series
