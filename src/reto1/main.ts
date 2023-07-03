@@ -44,9 +44,9 @@ console.log(`Videojuegos entregados: ${videojuegosEntregados}`);
 let videojuegoMasHoras: Videojuego = videojuegos[0];
 
 for (const videojuego of videojuegos) {
-    if (videojuego.getHorasEstimadas() > videojuegoMasHoras.getHorasEstimadas()) {
-        videojuegoMasHoras = videojuego;
-    }
+  if (videojuego.compareTo(videojuegoMasHoras) > 0) {
+    videojuegoMasHoras = videojuego;
+  }
 }
 
 console.log("Videojuego con más horas estimadas:");
@@ -56,9 +56,9 @@ console.log(videojuegoMasHoras.toString());
 let serieMasTemporadas: Serie = series[0];
 
 for (const serie of series) {
-    if (serie.getNumeroTemporadas() > serieMasTemporadas.getNumeroTemporadas()) {
-        serieMasTemporadas = serie;
-    }
+  if (serie.compareTo(serieMasTemporadas) > 0) {
+    serieMasTemporadas = serie;
+  }
 }
 
 console.log("Serie con más temporadas:");
