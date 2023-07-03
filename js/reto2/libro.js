@@ -11,26 +11,26 @@ class Libro {
     get isbn() {
         return this._isbn;
     }
-    set isbn(value) {
-        this._isbn = value;
+    set isbn(newIsbn) {
+        this._isbn = newIsbn;
     }
     get titulo() {
         return this._titulo;
     }
-    set titulo(value) {
-        this._titulo = value;
+    set titulo(newTitulo) {
+        this._titulo = newTitulo;
     }
     get autor() {
         return this._autor;
     }
-    set autor(value) {
-        this._autor = value;
+    set autor(newAutor) {
+        this._autor = newAutor;
     }
     get numeroPaginas() {
         return this._numeroPaginas;
     }
-    set numeroPaginas(value) {
-        this._numeroPaginas = value;
+    set numeroPaginas(newNumeroPaginas) {
+        this._numeroPaginas = newNumeroPaginas;
     }
     // Método toString() para representar el libro como una cadena de texto
     toString() {

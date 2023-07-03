@@ -14,45 +14,45 @@ class Libro {
   }
   
   // Getters y Setters para las propiedades del libro
-  get isbn(): string {
+  get isbn(){
     return this._isbn;
   }
 
-  set isbn(value: string) {
-    this._isbn = value;
+  set isbn(newIsbn) {
+    this._isbn = newIsbn;
   }
 
-  get titulo(): string {
+  get titulo(){
     return this._titulo;
   }
 
-  set titulo(value: string) {
-    this._titulo = value;
+  set titulo(newTitulo) {
+    this._titulo = newTitulo;
   }
 
-  get autor(): string {
+  get autor() {
     return this._autor;
   }
 
-  set autor(value: string) {
-    this._autor = value;
+  set autor(newAutor) {
+    this._autor = newAutor;
   }
 
-  get numeroPaginas(): number {
+  get numeroPaginas(){
     return this._numeroPaginas;
   }
 
-  set numeroPaginas(value: number) {
-    this._numeroPaginas = value;
+  set numeroPaginas(newNumeroPaginas) {
+    this._numeroPaginas = newNumeroPaginas;
   }
 
   // Método toString() para representar el libro como una cadena de texto
-  toString(): string {
+  toString() {
     return `El libro con ISBN ${this._isbn} creado por ${this._autor} tiene ${this._numeroPaginas} páginas.`;
   }
 
   // Método toStringTitulo() para obtener solo el título del libro
-  toStringTitulo(): string {
+  toStringTitulo() {
     return this._titulo;
   }
 }
