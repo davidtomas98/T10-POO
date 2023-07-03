@@ -1,19 +1,20 @@
 "use strict";
 // Crear arrays de Series y Videojuegos
 const series = [
-    new Serie("Serie 1", "Creador 1"),
-    new Serie("Serie 2", "Creador 2"),
-    new Serie("Serie 3", "Creador 3"),
-    new Serie("Serie 4", "Creador 4"),
-    new Serie("Serie 5", "Creador 5")
-];
-const videojuegos = [
-    new Videojuego("Videojuego 1", 15, "Compañía 1"),
-    new Videojuego("Videojuego 2", 20, "Compañía 2"),
-    new Videojuego("Videojuego 3", 10, "Compañía 3"),
-    new Videojuego("Videojuego 4", 12, "Compañía 4"),
-    new Videojuego("Videojuego 5", 8, "Compañía 5")
-];
+    new Serie("Stranger Things", "Los Hermanos Duffer"),
+    new Serie("Game of Thrones", "David Benioff, D.B. Weiss"),
+    new Serie("Breaking Bad", "Vince Gilligan"),
+    new Serie("Friends", "David Crane, Marta Kauffman"),
+    new Serie("The Office", "Greg Daniels")
+  ];
+  
+  const videojuegos = [
+    new Videojuego("The Legend of Zelda: Breath of the Wild", 59.99, "Nintendo"),
+    new Videojuego("Red Dead Redemption 2", 59.99, "Rockstar Games"),
+    new Videojuego("The Witcher 3: Wild Hunt", 39.99, "CD Projekt"),
+    new Videojuego("Grand Theft Auto V", 29.99, "Rockstar Games"),
+    new Videojuego("Minecraft", 26.95, "Mojang Studios")
+  ];
 // Resto del código principal
 // Entregar algunos Videojuegos y Series
 series[1].entregar();

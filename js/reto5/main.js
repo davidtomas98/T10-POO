@@ -1,16 +1,18 @@
 "use strict";
 // Crear película
-const pelicula = new Pelicula('Título de la Película', 120, 16, 'Director de la Película');
+const pelicula = new Pelicula('Titanic', 195, 13, 'James Cameron');
+
 // Crear cine
 const cine = new Cine(pelicula, 10);
+
 // Crear espectadores
 const espectadores = [
-    new Espectador('Espectador 1', 20, 15),
-    new Espectador('Espectador 2', 25, 10),
-    new Espectador('Espectador 3', 18, 12),
-    new Espectador('Espectador 4', 30, 8),
-    new Espectador('Espectador 5', 16, 9),
-    new Espectador('Espectador 6', 22, 11),
+    new Espectador('Carlos Martínez', 28, 18),
+    new Espectador('María López', 32, 16),
+    new Espectador('David García', 19, 14),
+    new Espectador('Laura Rodríguez', 35, 12),
+    new Espectador('Alejandro Fernández', 16, 10),
+    new Espectador('Ana González', 24, 15),
 ];
 // Reproducir la película en el cine
 cine.reproducirPelicula();
