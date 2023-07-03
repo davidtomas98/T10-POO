@@ -25,5 +25,3 @@ class Asiento {
         this.ocupado = true;
     }
 }
-
-export default Asiento;

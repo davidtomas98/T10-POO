@@ -1,9 +1,4 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const Asiento_1 = __importDefault(require("./Asiento"));
 class Cine {
     constructor(pelicula, precioEntrada) {
         this.pelicula = pelicula;
@@ -13,7 +8,7 @@ class Cine {
         for (let fila = 8; fila >= 1; fila--) {
             const filaAsientos = [];
             for (let columna = 'A'; columna <= 'I'; columna = String.fromCharCode(columna.charCodeAt(0) + 1)) {
-                filaAsientos.push(new Asiento_1.default(fila, columna));
+                filaAsientos.push(new Asiento(fila, columna));
             }
             this.asientos.push(filaAsientos);
         }
@@ -49,4 +44,3 @@ class Cine {
         }
     }
 }
-exports.default = Cine;

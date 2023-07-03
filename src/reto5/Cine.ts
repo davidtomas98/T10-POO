@@ -1,7 +1,3 @@
-import Pelicula from './Pelicula';
-import Espectador from './Espectador';
-import Asiento from './Asiento';
-
 class Cine {
     private pelicula: Pelicula;
     private precioEntrada: number;
@@ -56,5 +52,3 @@ class Cine {
         }
     }
 }
-
-export default Cine;

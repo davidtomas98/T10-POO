@@ -27,5 +27,3 @@ class Pelicula {
         return this.director;
     }
 }
-
-export default Pelicula;

@@ -21,5 +21,3 @@ class Espectador {
         return this.dinero;
     }
 }
-
-export default Espectador;

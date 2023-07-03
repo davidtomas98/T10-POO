@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Videojuego {
     constructor(titulo, horasEstimadas, compania) {
         this.titulo = titulo;
@@ -70,4 +69,3 @@ class Videojuego {
     Compañía: ${this.compania}`;
     }
 }
-exports.default = Videojuego;

@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Pelicula {
     constructor(titulo, duracion, edadMinima, director) {
         this.titulo = titulo;
@@ -20,4 +19,3 @@ class Pelicula {
         return this.director;
     }
 }
-exports.default = Pelicula;

@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Asiento {
     constructor(fila, columna) {
         this.fila = fila;
@@ -19,4 +18,3 @@ class Asiento {
         this.ocupado = true;
     }
 }
-exports.default = Asiento;

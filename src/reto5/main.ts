@@ -1,7 +1,3 @@
-import Pelicula from './Pelicula';
-import Espectador from './Espectador';
-import Cine from './Cine';
-
 // Crear película
 const pelicula = new Pelicula('Título de la Película', 120, 16, 'Director de la Película');
 

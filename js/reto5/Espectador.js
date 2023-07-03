@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Espectador {
     constructor(nombre, edad, dinero) {
         this.nombre = nombre;
@@ -16,4 +15,3 @@ class Espectador {
         return this.dinero;
     }
 }
-exports.default = Espectador;
