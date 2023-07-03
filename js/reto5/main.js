@@ -1,10 +1,8 @@
 "use strict";
 // Crear película
 const pelicula = new Pelicula('Titanic', 195, 13, 'James Cameron');
-
 // Crear cine
 const cine = new Cine(pelicula, 10);
-
 // Crear espectadores
 const espectadores = [
     new Espectador('Carlos Martínez', 28, 18),

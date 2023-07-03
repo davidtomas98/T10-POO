@@ -6,15 +6,14 @@ const series = [
     new Serie("Breaking Bad", "Vince Gilligan"),
     new Serie("Friends", "David Crane, Marta Kauffman"),
     new Serie("The Office", "Greg Daniels")
-  ];
-  
-  const videojuegos = [
+];
+const videojuegos = [
     new Videojuego("The Legend of Zelda: Breath of the Wild", 59.99, "Nintendo"),
     new Videojuego("Red Dead Redemption 2", 59.99, "Rockstar Games"),
     new Videojuego("The Witcher 3: Wild Hunt", 39.99, "CD Projekt"),
     new Videojuego("Grand Theft Auto V", 29.99, "Rockstar Games"),
     new Videojuego("Minecraft", 26.95, "Mojang Studios")
-  ];
+];
 // Resto del código principal
 // Entregar algunos Videojuegos y Series
 series[1].entregar();
