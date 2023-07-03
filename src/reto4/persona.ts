@@ -21,5 +21,3 @@ class Persona {
         return this.sexo;
     }
 }
-
-export default Persona;

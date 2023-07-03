@@ -1,7 +1,3 @@
-
-import Estudiante from './estudiante';
-import Profesor from './profesor';
-
 class Aula {
     private id: number;
     private capacidadMaxima: number;
@@ -19,6 +15,10 @@ class Aula {
 
     public agregarEstudiante(estudiante: Estudiante): void {
         this.estudiantes.push(estudiante);
+    }
+
+    public agregarProfesor(profesor: Profesor): void {
+        this.profesor = profesor;
     }
 
     public puedeDarClase(): boolean {
@@ -52,5 +52,3 @@ class Aula {
         console.log(`Aprobados femeninos: ${aprobadosFemeninos.length}`);
     }
 }
-
-export default Aula;

@@ -1,5 +1,3 @@
-import Persona from './persona';
-
 class Estudiante extends Persona {
     private calificacionActual: number;
 
@@ -16,5 +14,3 @@ class Estudiante extends Persona {
         return Math.random() < 0.5;
     }
 }
-
-export default Estudiante;

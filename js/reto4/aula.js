@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Aula {
     constructor(id, capacidadMaxima, materia, profesor) {
         this.id = id;
@@ -10,6 +9,9 @@ class Aula {
     }
     agregarEstudiante(estudiante) {
         this.estudiantes.push(estudiante);
+    }
+    agregarProfesor(profesor) {
+        this.profesor = profesor;
     }
     puedeDarClase() {
         const porcentajeAprobados = this.calcularPorcentajeAprobados();
@@ -35,4 +37,3 @@ class Aula {
         console.log(`Aprobados femeninos: ${aprobadosFemeninos.length}`);
     }
 }
-exports.default = Aula;

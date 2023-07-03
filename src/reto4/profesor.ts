@@ -1,5 +1,3 @@
-import Persona from './persona';
-
 class Profesor extends Persona {
     private materia: string;
 
@@ -16,5 +14,3 @@ class Profesor extends Persona {
         return Math.random() > 0.2;
     }
 }
-
-export default Profesor;

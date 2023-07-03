@@ -1,4 +1,3 @@
-
 class Videojuego implements Entregable {
     private titulo: string;
     private horasEstimadas: number;
@@ -89,3 +88,4 @@ class Videojuego implements Entregable {
     Compañía: ${this.compania}`;
     }
     }
+    

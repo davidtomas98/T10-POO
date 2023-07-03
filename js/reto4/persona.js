@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 class Persona {
     constructor(nombre, edad, sexo) {
         this.nombre = nombre;
@@ -16,4 +15,3 @@ class Persona {
         return this.sexo;
     }
 }
-exports.default = Persona;
