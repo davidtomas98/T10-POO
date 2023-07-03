@@ -4,5 +4,3 @@ interface Entregable {
     isEntregado(): boolean;
     compareTo(objeto: Entregable): number;
 }
-
-export default Entregable;

@@ -1,4 +1,3 @@
-import Entregable from "./entregable";
 
 class Serie implements Entregable {
     private titulo: string;
@@ -88,5 +87,3 @@ class Serie implements Entregable {
     Creador: ${this.creador}`;
     }
 }
-
-export default Serie;

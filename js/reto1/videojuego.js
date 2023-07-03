@@ -1,86 +1,66 @@
-
-class Videojuego implements Entregable {
-    private titulo: string;
-    private horasEstimadas: number;
-    private entregado: boolean;
-    private genero: string;
-    private compania: string;
-
-    constructor(titulo: string, horasEstimadas: number, compania: string) {
+"use strict";
+class Videojuego {
+    constructor(titulo, horasEstimadas, compania) {
         this.titulo = titulo;
         this.horasEstimadas = horasEstimadas;
         this.entregado = false;
         this.genero = "";
         this.compania = compania;
     }
-
     // Métodos y propiedades de la clase Videojuego
-
-    public getTitulo(): string {
+    getTitulo() {
         return this.titulo;
     }
-    
-    public getHorasEstimadas(): number {
+    getHorasEstimadas() {
         return this.horasEstimadas;
     }
-    
-    public getEntregado(): boolean {
+    getEntregado() {
         return this.entregado;
     }
-    
-    public getGenero(): string {
+    getGenero() {
         return this.genero;
     }
-    
-    public getCompania(): string {
+    getCompania() {
         return this.compania;
     }
-    
-    public setTitulo(titulo: string): void {
+    setTitulo(titulo) {
         this.titulo = titulo;
     }
-    
-    public setHorasEstimadas(horasEstimadas: number): void {
+    setHorasEstimadas(horasEstimadas) {
         this.horasEstimadas = horasEstimadas;
     }
-    
-    public setGenero(genero: string): void {
+    setGenero(genero) {
         this.genero = genero;
     }
-    
-    public setCompania(compania: string): void {
+    setCompania(compania) {
         this.compania = compania;
     }
-    
-    public entregar(): void {
+    entregar() {
         this.entregado = true;
     }
-    
-    public devolver(): void {
+    devolver() {
         this.entregado = false;
     }
-    
-    public isEntregado(): boolean {
+    isEntregado() {
         return this.entregado;
     }
-    
-    public compareTo(objeto: Entregable): number {
+    compareTo(objeto) {
         if (objeto instanceof Videojuego) {
-            const videojuego = objeto as Videojuego;
+            const videojuego = objeto;
             if (this.horasEstimadas > videojuego.horasEstimadas) {
                 return 1;
-            } else if (this.horasEstimadas < videojuego.horasEstimadas) {
+            }
+            else if (this.horasEstimadas < videojuego.horasEstimadas) {
                 return -1;
-            } else {
+            }
+            else {
                 return 0;
             }
         }
         return 0;
     }
-
     // ...
-
-    public toString(): string {
+    toString() {
         return `Videojuego:
     Título: ${this.titulo}
     Horas Estimadas: ${this.horasEstimadas}
@@ -88,4 +68,4 @@ class Videojuego implements Entregable {
     Género: ${this.genero}
     Compañía: ${this.compania}`;
     }
-    }
+}
